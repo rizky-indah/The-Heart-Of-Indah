@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login - The Heart of Indah</title>
+  <link rel="stylesheet" href="styleLogin.css">
+</head>
+<body>
+  <div class="login-container">
+    <img src="img/the heart of indah.png" alt="Logo" class="logo">
+    <h2>The Heart Of Indah</h2>
+    <form onsubmit="validateLogin(event)">
+      <label for="username">Username:</label>
+      <input type="text" id="username" placeholder="Enter username">
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" placeholder="Enter password">
+
+      <button type="submit">Log In</button>
+    </form>
+  </div>
+
+  <script>
+    function validateLogin(event) {
+      event.preventDefault(); // cegah reload halaman
+
+      const username = document.getElementById("username").value;
+      const password = document.getElementById("password").value;
+
+      if (username === "rizky" && password === "indah") {
+        window.location.href = "dashboard.html"; // arahkan ke dashboard
+      } else {
+        alert("Username atau Password salah!");
+      }
+    }
+  </script>
+</body>
+</html>

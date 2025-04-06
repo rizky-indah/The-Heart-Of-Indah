@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px;
+  background: #f29ecc;
+}
+
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+.header-banner {
+  float: left;
+  width: 75%;
+}
+
+.link-item {
+  text-decoration: none;
+  color: #a73473;
+  padding: 5px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  margin: 5px 0;
+  display: block;
+  text-align: center;
+}
+
+.link-blog {
+  text-decoration: none;
+  color: #a73473;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.link-blog:hover,
+.link-item:hover {
+  background-color: #a73473;
+  color: #fff;
+}
+
+.menu {
+  float: left;
+  width: 25%;
+  background-color: #f29ecc;
+  padding-right: 20px;
+  margin-bottom: 10px;
+}
+
+.img-menu img {
+  background-color: #aaa;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.img-kiri {
+  background-color: #aaa;
+  width: 60%;
+  display: block;
+  margin: 5px auto;
+  border-radius: 10px;
+}
+
+.banner {
+  background-color: #aaa;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.content-left {
+  float: left;
+  width: 40%;
+  background-color: #f29ecc;
+}
+
+.content-right {
+  float: right;
+  width: 33%;
+  background-color: #f29ecc;
+}
+
+#des-kanan {
+  text-align: center;
+  line-height: 30px;
+}
+
+.copyright {
+  margin-top: 50px;
+  padding: 10px;
+  font-size: 14px;
+  text-align: center;
+  color: #a73473;
+}
+
